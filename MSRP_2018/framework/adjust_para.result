@@ -1,0 +1,289 @@
+Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.31505   0.42734   0.36270       578
+          1    0.64825   0.53182   0.58429      1147
+avg / total    0.53660   0.49681   0.51004      1725
+
+filter_size:2 top_k:2 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.30590   0.43080   0.35776       578
+          1    0.63886   0.50741   0.56560      1147
+avg / total    0.52729   0.48174   0.49596      1725
+
+filter_size:2 top_k:3 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.34174   0.46886   0.39533       578
+          1    0.67060   0.54490   0.60125      1147
+avg / total    0.56041   0.51942   0.53225      1725
+
+filter_size:2 top_k:4 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33597   0.51384   0.40629       578
+          1    0.66587   0.48823   0.56338      1147
+avg / total    0.55533   0.49681   0.51074      1725
+
+filter_size:2 top_k:5 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33488   0.49827   0.40056       578
+          1    0.66474   0.50131   0.57157      1147
+avg / total    0.55421   0.50029   0.51427      1725
+
+filter_size:2 top_k:6 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33982   0.51384   0.40909       578
+          1    0.66980   0.49695   0.57057      1147
+avg / total    0.55923   0.50261   0.51646      1725
+
+filter_size:2 top_k:7 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.32727   0.49827   0.39506       578
+          1    0.65680   0.48387   0.55723      1147
+avg / total    0.54639   0.48870   0.50289      1725
+
+filter_size:2 top_k:8 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33953   0.50519   0.40612       578
+          1    0.66936   0.50480   0.57555      1147
+avg / total    0.55885   0.50493   0.51878      1725
+
+filter_size:2 top_k:9 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33988   0.47924   0.39770       578
+          1    0.66923   0.53095   0.59212      1147
+avg / total    0.55887   0.51362   0.52698      1725
+
+filter_size:2 top_k:10 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33865   0.44118   0.38317       578
+          1    0.66770   0.56582   0.61255      1147
+avg / total    0.55744   0.52406   0.53569      1725
+
+filter_size:3 top_k:2 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.34080   0.50000   0.40533       578
+          1    0.67047   0.51264   0.58103      1147
+avg / total    0.56001   0.50841   0.52216      1725
+
+filter_size:3 top_k:3 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.32951   0.39792   0.36050       578
+          1    0.66115   0.59198   0.62466      1147
+avg / total    0.55003   0.52696   0.53614      1725
+
+filter_size:3 top_k:4 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.32887   0.46713   0.38599       578
+          1    0.65929   0.51962   0.58118      1147
+avg / total    0.54858   0.50203   0.51578      1725
+
+filter_size:3 top_k:5 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33978   0.42561   0.37788       578
+          1    0.66833   0.58326   0.62291      1147
+avg / total    0.55824   0.53043   0.54080      1725
+
+filter_size:3 top_k:6 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33990   0.44810   0.38657       578
+          1    0.66874   0.56146   0.61043      1147
+avg / total    0.55856   0.52348   0.53542      1725
+
+filter_size:3 top_k:7 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.32385   0.41349   0.36322       578
+          1    0.65653   0.56495   0.60731      1147
+avg / total    0.54506   0.51420   0.52552      1725
+
+filter_size:3 top_k:8 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33094   0.39792   0.36135       578
+          1    0.66214   0.59459   0.62655      1147
+avg / total    0.55116   0.52870   0.53769      1725
+
+filter_size:3 top_k:9 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33843   0.49827   0.40308       578
+          1    0.66819   0.50915   0.57793      1147
+avg / total    0.55770   0.50551   0.51934      1725
+
+filter_size:3 top_k:10 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.34180   0.46540   0.39414       578
+          1    0.67058   0.54839   0.60336      1147
+avg / total    0.56041   0.52058   0.53325      1725
+
+filter_size:4 top_k:2 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33122   0.45156   0.38214       578
+          1    0.66169   0.54054   0.59501      1147
+avg / total    0.55096   0.51072   0.52368      1725
+
+filter_size:4 top_k:3 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.31199   0.39619   0.34909       578
+          1    0.64783   0.55972   0.60056      1147
+avg / total    0.53530   0.50493   0.51630      1725
+
+filter_size:4 top_k:4 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.34531   0.46540   0.39646       578
+          1    0.67336   0.55536   0.60870      1147
+avg / total    0.56344   0.52522   0.53758      1725
+
+filter_size:4 top_k:5 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.35168   0.39792   0.37338       578
+          1    0.67507   0.63034   0.65194      1147
+avg / total    0.56671   0.55246   0.55860      1725
+
+filter_size:4 top_k:6 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.34051   0.43772   0.38304       578
+          1    0.66904   0.57280   0.61719      1147
+avg / total    0.55896   0.52754   0.53873      1725
+
+filter_size:4 top_k:7 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.34597   0.50519   0.41069       578
+          1    0.67537   0.51874   0.58679      1147
+avg / total    0.56500   0.51420   0.52778      1725
+
+filter_size:4 top_k:8 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.32704   0.47924   0.38877       578
+          1    0.65718   0.50305   0.56988      1147
+avg / total    0.54655   0.49507   0.50919      1725
+
+filter_size:4 top_k:9 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.29744   0.30104   0.29923       578
+          1    0.64561   0.64167   0.64364      1147
+avg / total    0.52895   0.52754   0.52824      1725
+
+filter_size:4 top_k:10 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.32164   0.38062   0.34865       578
+          1    0.65610   0.59547   0.62431      1147
+avg / total    0.54403   0.52348   0.53195      1725
+
+filter_size:5 top_k:2 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.34459   0.51211   0.41197       578
+          1    0.67436   0.50915   0.58023      1147
+avg / total    0.56387   0.51014   0.52385      1725
+
+filter_size:5 top_k:3 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.32113   0.39446   0.35404       578
+          1    0.65517   0.57977   0.61517      1147
+avg / total    0.54324   0.51768   0.52767      1725
+
+filter_size:5 top_k:4 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33375   0.45848   0.38630       578
+          1    0.66380   0.53880   0.59480      1147
+avg / total    0.55321   0.51188   0.52494      1725
+
+filter_size:5 top_k:5 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.34503   0.51038   0.41172       578
+          1    0.67471   0.51177   0.58205      1147
+avg / total    0.56424   0.51130   0.52498      1725
+
+filter_size:5 top_k:6 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.33254   0.48616   0.39494       578
+          1    0.66250   0.50828   0.57523      1147
+avg / total    0.55194   0.50087   0.51482      1725
+
+filter_size:5 top_k:7 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.32112   0.45502   0.37652       578
+          1    0.65232   0.51526   0.57574      1147
+avg / total    0.54134   0.49507   0.50899      1725
+
+filter_size:5 top_k:8 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.32615   0.41869   0.36667       578
+          1    0.65819   0.56408   0.60751      1147
+avg / total    0.54693   0.51536   0.52681      1725
+
+filter_size:5 top_k:9 full_cell:2000 iteration_num:3000	Tensor("Softmax:0", shape=(?, 2), dtype=float32)
+cross_entropy: Tensor("Mean:0", shape=(), dtype=float32)
+loss: Tensor("AddN:0", shape=(), dtype=float32)
+             precision    recall  f1-score   support
+          0    0.35196   0.43599   0.38949       578
+          1    0.67691   0.59547   0.63358      1147
+avg / total    0.56803   0.54203   0.55179      1725
+
+filter_size:5 top_k:10 full_cell:2000 iteration_num:3000	

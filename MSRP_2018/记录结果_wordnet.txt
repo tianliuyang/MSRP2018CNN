@@ -1,0 +1,21 @@
+wordnet:
+cos：
+             precision    recall  f1-score   support
+          0    0.33141   0.59689   0.42619       578
+          1    0.65936   0.39320   0.49263      1147
+avg / total    0.54947   0.46145   0.47037      1725
+
+filter_size:5 top_k:15 full_cell:1024 iteration_num:4000	iteration_num, Ϊʲô����ѧƫ�˰�������
+             precision    recall  f1-score   support
+          0    0.34307   0.08131   0.13147       578
+          1    0.66562   0.92153   0.77294      1147
+avg / total    0.55754   0.64000   0.55800      1725
+
+filter_size:5 top_k:15 full_cell:1024 iteration_num:6000	iteration_num, Ϊʲô����ѧƫ�˰�������
+
+             precision    recall  f1-score   support
+          0    0.29231   0.03287   0.05910       578
+          1    0.66325   0.95990   0.78447      1147
+avg / total    0.53896   0.64928   0.54142      1725
+平方差 AdamOptimizer
+filter_size:5 top_k:10 full_cell:1024 iteration_num:100	iteration_num, 为什么还是学偏了啊！！！
